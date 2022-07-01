@@ -1,0 +1,19 @@
+#navbar{
+    background-color: aqua;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+}
+
+#welcome-section{
+    height: 100vh;
+    position: relative;
+}
+
+@media (maxwidth:1024px){
+    #welcome-section{
+        display: block;
+    }
+}
