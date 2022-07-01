@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 #navbar{
     display: flex;
     justify-content: right;
@@ -36,9 +41,34 @@
     font-weight: 700;
 }
 
+#projects{
+    background-color: aquamarine;
+}
+
+.center{
+    text-align: center;
+}
+
+.container{
+
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: rgb(133, 127, 127);
+}
 
 
+.small{
+    
+    text-align: center;
+    margin-left: 10px;
+    
+}
 
+.imgs{
+    height: 250px;
+    width: 250px;
+}
 
 @media (maxwidth:1024px){
     #welcome-section{
